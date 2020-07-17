@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.carousel-item{
+    width: 100%;
+    height: 93vh;
+}
+
+:root{
+    --Color:gray;
+}
+.Contact_Color{
+    background-color: var(--Color);
+}
+.list-group-item{
+    background-color: var(--Color);
+    border-style: none;
+    padding-right: auto;
+}
+.Justify{
+    text-align: justify;
+    text-justify: inter-word;
+}
+.link_footer{
+    text-decoration: none;
+    color: black;
+}
+.modal-dialog{
+    max-width:60%;
+    margin:1.75rem auto;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    background-color: #2196F3;
+    padding: 10px;
+    grid-gap:10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    
+  }
+  .grid{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 5fr 1fr;
+      grid-template-areas: 'img img''btnadd btndel';
+      background-color: gray;
+      padding:0;
+      grid-gap: 10px;
+  }
+  .img{
+      grid-area:img ;
+  }
+  .btnadd{
+      grid-area: btnadd;
+  }
+  .grid1{
+      display:grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      
+      padding:0;
+      grid-gap: 10px;
+  }
+  .price{
+      grid-column: 1/4;
+  }
+  .det{
+      grid-column: 1/4;
+  }
+  .det-mat{
+      grid-column: 1/2;
+  }
+  .det-info{
+      grid-column: 2/4;
+  }
+  .info{
+      grid-column: 1/4;
+  }
+  .btn1{
+      grid-column: 1/3;
+  }
+  
+
+
+
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }

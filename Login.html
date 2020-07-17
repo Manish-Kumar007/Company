@@ -1,0 +1,135 @@
+<!DOCTYPE html> 
+<head>
+    <title>
+
+    </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="font awesome\fontawesome-free-5.13.0-web\css\all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        Launch demo modal
+        </button>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <!-- <h5 class="modal-title" id="exampleModalLabel"></h5> -->
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <nav>
+                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                      <a class="nav-link active" id="nav-Login-tab" data-toggle="tab" href="#nav-Login" role="tab" aria-controls="nav-home" aria-selected="true">Login</a>
+                      <a class="nav-link" id="nav-Register-tab" data-toggle="tab" href="#nav-Register" role="tab" aria-controls="nav-profile" aria-selected="false">Register</a>
+                    </div>
+                </nav>
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-Login" role="tabpanel" aria-labelledby="nav-Login-tab">
+                            <form class="row g-3 w-50 mr-auto">
+                                <div class="col-md-12">
+                                  <label for="inputEmail4" class="form-label">Email</label>
+                                  <input type="email" class="form-control" id="inputEmail4">
+                                </div>
+                                <div class="col-md-12">
+                                  <label for="inputPassword4" class="form-label">Password</label>
+                                  <input type="password" class="form-control" id="inputPassword4">
+                                </div>
+                                <div class="col-12">
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                                    <label class="form-check-label" for="gridCheck">
+                                      Remember Password
+                                    </label>
+                                  </div>
+                                </div>
+                                <div class="col-12">
+                                  <button type="submit" class="btn btn-primary">Sign in</button>
+                                </div>
+                              </form>
+                        </div>
+                        <div class="tab-pane fade" id="nav-Register" role="tabpanel" aria-labelledby="nav-Register-tab">
+                            <form class="row g-3">
+                                <div class="col-md-6">
+                                  <label for="inputEmail4" class="form-label">Email</label>
+                                  <input type="email" class="form-control" id="inputEmail4">
+                                </div>
+                                <div class="col-md-6">
+                                  <label for="inputPassword4" class="form-label">Password</label>
+                                  <input type="password" class="form-control" id="inputPassword4">
+                                </div>
+                                <div class="col-12">
+                                  <label for="inputAddress" class="form-label">Address</label>
+                                  <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                                </div>
+                                <div class="col-12">
+                                  <label for="inputAddress2" class="form-label">Address 2</label>
+                                  <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                                </div>
+                                <div class="col-md-6">
+                                  <label for="inputCity" class="form-label">City</label>
+                                  <input type="text" class="form-control" id="inputCity">
+                                </div>
+                                <div class="col-md-4">
+                                  <label for="inputState" class="form-label">State</label>
+                                  <select id="inputState" class="form-select">
+                                    <option selected>Choose...</option>
+                                    <option>...</option>
+                                  </select>
+                                </div>
+                                <div class="col-md-2">
+                                  <label for="inputZip" class="form-label">Zip</label>
+                                  <input type="text" class="form-control" id="inputZip">
+                                </div>
+                                <div class="col-12">
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                                    <label class="form-check-label" for="gridCheck">
+                                      Check me out
+                                    </label>
+                                  </div>
+                                </div>
+                                <div class="col-12">
+                                  <button type="submit" class="btn btn-primary">Sign in</button>
+                                </div>
+                              </form>
+                        </div>
+                    </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              
+            </div>
+          </div>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+        var myCarousel = document.querySelector('#myCarousel')
+        var carousel = new bootstrap.Carousel(myCarousel, {
+        interval: 1000,
+        wrap: false
+        })
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+</body>
+
+</html>
