@@ -1,14 +1,14 @@
 #Electricity Consumption
 delimiter //
 
-create procedure select_all( )
+create procedure select_all_Eb( )
 begin
 Select * from electricity_consumption_data;
 end //
 
 delimiter ;
-select Eb_id,eb_reading from electricity_consumption_data where Eb_id=1;
-call select_all();
+
+
 #-----insert------
 
 delimiter //
@@ -19,5 +19,4 @@ insert into electricity_consumption_data(Date,eb_reading) values (Date,eb_readin
 end //
 
 delimiter ;
-insert into electricity_consumption_data(Date,eb_reading) values ('2020-07-05',300);
-call insert_EB_details('2020-07-05',300);
+

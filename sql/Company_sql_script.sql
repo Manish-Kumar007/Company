@@ -10,8 +10,8 @@ use wire_and_nail;
 -- Table structure for table `Expenses`
 --
 
-DROP TABLE if exists `Expenses`;
-CREATE TABLE `Expenses` (
+DROP TABLE if exists `expenses`;
+CREATE TABLE `expenses` (
   `ExpenseId` int NOT NULL auto_increment,
   `Date` date NOT NULL,
   `Expense_description` varchar(45) NOT NULL,
@@ -26,9 +26,9 @@ CREATE TABLE `Expenses` (
 -- Table structure for table `Manufacturing`
 --
 
-DROP TABLE if exists `Manufacturing`;
+DROP TABLE if exists `manufacturing`;
 
-CREATE TABLE `Manufacturing` (
+CREATE TABLE `manufacturing` (
   `Manufacturing_id` int primary key not null auto_increment,
   `Date` date NOT NULL,
   `Product_type` varchar(45) NOT NULL,
@@ -41,9 +41,9 @@ CREATE TABLE `Manufacturing` (
 -- Table structure for table `Sales`
 --
 
-DROP TABLE if exists `Sales`;
+DROP TABLE if exists `sales`;
 
-CREATE TABLE `Sales` (
+CREATE TABLE `sales` (
   `Sale_id` int primary key not null auto_increment,
   `Date` date NOT NULL,
   `Product_type` varchar(45) NOT NULL,
