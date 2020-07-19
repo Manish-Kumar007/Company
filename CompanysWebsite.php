@@ -6,10 +6,12 @@
     <?php include("head_links.php");?>
 </head>
 <body>
-    <?php include("header.php");?>
-    <?php include("content.php");?>
-    <?php include("footerLink.php");?>
-    <?php include("bodyscript.php");?>
+    <?php 
+     include("header.php");
+     include("content.php");
+     include("footerLink.php");
+     include("bodyscript.php");
+     ?>
 </body>
 </html>
 

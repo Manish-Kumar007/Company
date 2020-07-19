@@ -13,7 +13,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="http://localhost/webprojects/Company/CompanysWebsite.php">
-            <img src="images\logo1.jpeg" style="border-radius:150px; width:100px !important;height:100px !important;"   alt="logo"></a>
+            <img src="./images/logo1.jpeg" style="border-radius:150px; width:100px !important;height:100px !important;"   alt="logo"></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -45,7 +45,7 @@
                 <a class="nav-link fa fa-user" href="#"></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fa fa-user" data-toggle="modal1" data-target="#ModalLogin" href="#"> Login</a>
+                <a class="nav-link fa fa-user"  href="./login.php"> Login</a>
               </li>
             </ul>
           </div>
