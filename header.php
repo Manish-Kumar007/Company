@@ -20,10 +20,10 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="http://localhost/webprojects/Company/CompanysWebsite.php">Home</a>
+                <a class="nav-link active" aria-current="page" href="CompanysWebsite.php">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="http://localhost/webprojects/Company/CompanysWebsiteProduct.php">Products</a>
+                <a class="nav-link" href="products.php">Products</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">About Us</a>
