@@ -17,17 +17,17 @@
             <div class="container">
                 <div class="grid-container">
                     <div class="grid-item">
-                        <img class="img-fluid" src="images\IMGL0333.JPG " alt="First slide">
-                        <h5 class="card-title">Family</h5>
-                        <p class="card-text">This is the best family</p>
+                        <img class="img-fluid w-100" src="images/nail1.jpeg " alt="First slide">
+                        <h5 class="card-title">Nail1</h5>
+                        <p class="card-text">This is nail made of stainless steel</p>
                         <a href="#" class="btn btn-primary">View</a>
                             
                         
                     </div>
                     <div class="grid-item">
-                        <img class="img-fluid" src="images\IMGL0333.JPG" alt="First slide">
-                        <h5 class="card-title">Family</h5>
-                        <p class="card-text">This is the best family</p>
+                        <img class="img-fluid w-100 h-100" src="images/nail2.jpeg" alt="First slide">
+                        <h5 class="card-title">Nail 2</h5>
+                        <p class="card-text">This is polish steel</p>
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">View</button>
                     </div> 
                 </div>
